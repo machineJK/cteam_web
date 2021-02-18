@@ -1,0 +1,15 @@
+package com.hanul.tutors;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class MemberServiceImpl implements MemberService{
+	private MemberDAO dao;
+	
+	@Override
+	public int login(String id, String pw) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

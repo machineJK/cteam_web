@@ -1,0 +1,5 @@
+package com.hanul.tutors;
+
+public interface MemberService {
+	public int login()
+}

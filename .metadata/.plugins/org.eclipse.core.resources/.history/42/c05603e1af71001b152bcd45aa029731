@@ -1,0 +1,15 @@
+package com.hanul.tutors;
+
+import org.apache.ibatis.session.SqlSession;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public class MemberDAO implements MemberService{
+	private SqlSession sql;
+	
+	@Override
+	public int login(String id, String pw) {
+		return 0;
+	}
+
+}

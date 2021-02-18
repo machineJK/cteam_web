@@ -1,0 +1,11 @@
+package com.hanul.tutors;
+
+public class MemberDAO implements MemberService{
+
+	@Override
+	public int login(String id, String pw) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

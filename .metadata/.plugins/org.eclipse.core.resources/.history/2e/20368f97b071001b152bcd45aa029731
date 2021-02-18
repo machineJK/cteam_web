@@ -1,0 +1,18 @@
+package member;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class MemberController {
+	@Autowired private MemberServiceImpl service;
+	
+	@RequestMapping("/list.cu")
+	public String login(MemberVO vo, Model model) {
+		model.addAttribute("list", model) service.login(vo);
+		
+		return "member/login";
+	}
+}

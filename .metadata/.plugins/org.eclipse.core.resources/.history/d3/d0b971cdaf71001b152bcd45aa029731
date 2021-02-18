@@ -1,0 +1,13 @@
+package com.hanul.tutors;
+
+import org.springframework.stereotype.Repository;
+
+@Repository
+public class MemberDAO implements MemberService{
+
+	@Override
+	public int login(String id, String pw) {
+		return 0;
+	}
+
+}
